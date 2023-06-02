@@ -53,8 +53,8 @@ public class Televisor {
 	}
 
 	public void mostrarStatus() {
-		System.out.println("A televis„o est·: " + ligado);
-		System.out.println("O canal atual È o: " + canal);
-		System.out.println("O volume atual È: " + volume);
+		System.out.println("A televis√£o est√°: " + ligado);
+		System.out.println("O canal atual √© o: " + canal);
+		System.out.println("O volume atual √©: " + volume);
 	}
 }
