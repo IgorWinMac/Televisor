@@ -11,7 +11,7 @@ public class Televisor {
 	}
 
 	public void aumentarVolume() {
-		if (ligado == true) {
+		if (ligado == true && volume < 10) {
 			System.out.println("Aumentando volume...");
 			volume = volume + 1;
 		}
@@ -28,7 +28,7 @@ public class Televisor {
 
 	public void subirCanal() {
 		System.out.println("Mudando de canal");
-		if (ligado == true) {
+		if (ligado == true && canal < 16) {
 			canal = canal + 1;
 		}
 		System.out.println(canal);
